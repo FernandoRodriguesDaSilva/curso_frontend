@@ -1,17 +1,33 @@
 body {   
-    background-color: brown;
+	background-color: brown;
 }
 
 /* iPhone 7*/
 @media only screen and (min-width:375px) and (max-width:767px) {
-    h1 {
-        color:white;
-    }
+	h1 {
+		color:white;
+	}
+	body{
+		background-color: blue;
+	}
 }
 
 /* iPhone 7 Plus*/
 @media only screen and (min-width:414px) and (max-width:767px) {
-    h1 {
-        color:yellow;
-    }
+	h1 {
+		color:yellow;
+	}
+	body{
+		background-color: orange;
+	}
 }
+
+	@media only screen and (min-device-width:640px) and (max-device-width:960px){
+		h1 {
+			color: #2f3;
+			display: none;
+		}
+		body{
+			background-color: #56e;
+		}
+	}
