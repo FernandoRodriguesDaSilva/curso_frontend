@@ -32,6 +32,11 @@ aside img:nth-child(2) {
     }  
 }
 
+/* Esconder menu no table e mostrar só em baixo */
+nav#menu_desktop{
+    display: none;
+}
+
 nav#menu_mobile {
 	display:block;
 	width:90%;	
