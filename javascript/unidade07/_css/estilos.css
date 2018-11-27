@@ -22,6 +22,18 @@ main {
     margin-top: 20px;
 }
 
+#mensagem2 {
+    width:500px;
+    margin-left:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:green; 
+    margin-top: 20px;
+}
+
+
+
+
 h1 {
 	color:#666666;
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -42,6 +54,17 @@ input[type="text"] {
 	background-color:#FFFFFF;
 	margin-bottom:30px;
 }
+
+input[type="email"] {
+    display: block;
+    padding:15px;
+    border:1px solid #999;
+    border-radius:5px;
+    width:300px;
+    background-color:#FFFFFF;
+    margin-bottom:30px;
+}
+
 
 input[type="submit"] {
 	display:block;	

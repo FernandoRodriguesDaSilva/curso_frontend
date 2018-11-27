@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="janela"></div>
+
+
+	<script>
+		//janela.innerHTML = "Teste";
+		var indice = 0;
+		var intervalo;
+		intervalo = setInterval(mudarvalor, 2000)
+
+		function mudarvalor(){
+			janela.innerHTML = indice
+			indice ++
+
+			if(indice == 11){
+				clearInterval(intervalo)
+				janela.innerHTML = "Parou"
+			}
+		}
+	</script>
+</body>
+</html>
